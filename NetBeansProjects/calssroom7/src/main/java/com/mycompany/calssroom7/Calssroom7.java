@@ -15,15 +15,15 @@ public class Calssroom7 {
 
     public static void main(String[] args) {
         //Binary search
-    int[] sortedArray = {1, 3, 5, 7, 9};
-    int key = 5;
+    int[] sortedArray = {2, 6, 11, 17, 19};
+    int key = 11;
     int low = 0;
     int high = sortedArray.length - 1;
     int index = runBinarySearchIteratively(sortedArray, key, low, high);
     System.out.println("Index of " + key + " is: " + index);
     
     //Bubble sort
-    int[] arr = {64, 34, 25, 12, 22, 11, 90}; 
+    int[] arr = {8, 77, 25, 67, 22, 90, 770}; 
         bubbleSort(arr, arr.length); 
         System.out.println("Sorted array: ");
         for (int i = 0; i < arr.length; i++) {
